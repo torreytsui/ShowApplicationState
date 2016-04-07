@@ -1,0 +1,23 @@
+{
+  "name": "torreytsui/m2-show-application-state",
+  "description": "Example using 'areas' - displays application state including a list of loaded modules",
+  "require": {
+    "magento/framework": "~100.0.2"
+  },
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TorreyTsui\\ShowApplicationState\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Torrey Tsui",
+      "role": "Developer"
+    }
+  ]
+}
